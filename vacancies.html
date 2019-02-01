@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Вакансии</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- Здесь пишем код-->
+    <header class="header section">
+      <div class="header-bg header-bg-clear header-animated animated">
+        <div data-rellax-speed="-2" class="rellax"><img src="img/dec-header-bg-wht.png" alt="alt" class="header-bg__wht header-animated animated-hidden"></div>
+      </div>
+      <div class="header-top">
+        <div class="container">
+          <div class="header-logo header-animated animated-hidden"><img src="img/logo-h.png" alt="alt"></div>
+          <div class="header-contacts">
+            <div class="header-contacts__top">
+              <div class="header-search icon-search"></div>
+              <div class="header-divider header-divider--white skew skew-fill header-animated animated-hidden"></div><a href="#translators-form" class="button button-violet translators-form-trigger"><span>переводчикам</span></a><a href="mailto:philin.com.ua@gmail.com" class="header-email">philin.com.ua@gmail.com</a>
+              <div class="header-divider skew skew-fill header-animated animated-hidden"></div><a href="tel:0577802864" class="header-tel"><span class="skew-inner">057 780-28-64</span></a>
+              <div class="header-divider skew skew-fill header-animated animated-hidden"></div><a href="tel:0505041275" class="header-tel"><span class="skew-inner">050 504-12-75</span></a>
+              <div class="header-divider skew skew-fill header-animated animated-hidden"></div><a href="tel:0505041275" class="header-tel"><span class="skew-inner">050 504-12-75</span></a><a href="#" class="icon icon-whats"></a><a href="#" class="icon-telegram"></a>
+              <div class="localization">
+                <div class="localization-list">
+                  <div class="localization-list__selected">
+                    <div class="icon-flag-ru"></div>
+                  </div>
+                  <ul class="localization-list__dropdown">
+                    <li class="skew skew-fill"><a href="#" class="skew-inner">
+                        <div class="icon-flag-ru"></div></a></li>
+                    <li class="skew skew-fill"><a href="#" class="skew-inner">
+                        <div class="icon-flag-ru"></div></a></li>
+                    <li class="skew skew-fill"><a href="#" class="skew-inner">
+                        <div class="icon-flag-ru"></div></a></li>
+                  </ul>
+                </div>
+                <div class="localization__tri"></div>
+              </div>
+            </div>
+            <div class="header-contacts__bottom">
+              <ul class="header-menu">
+                <li><a href="#"><span class="skew-inner">О компании</span></a></li>
+                <li><a href="#"><span class="skew-inner">Услуги</span></a></li>
+                <li><a href="#"><span class="skew-inner">Вакансии</span></a></li>
+                <li><a href="#"><span class="skew-inner">Отзывы</span></a></li>
+                <li><a href="#"><span class="skew-inner">Для бизнеса</span></a></li>
+                <li><a href="#"><span class="skew-inner">Контакты</span></a></li>
+              </ul>
+              <div class="button-wrapper"><a href="#order-form" class="button header-order button-spreaded">
+                  <div class="button-spreaded__left skew skew-fill"></div>
+                  <div class="button-spreaded__right skew skew-fill"></div><span>заказать перевод</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-left">
+            <div class="header-left__inner">
+              <h1 class="upper grad marked marked-inverse title-contacts title-margined">Вакансии</h1>
+              <div class="headet-left__subtitle headet-left__subtitle--langs marked marked-inverse fz35">Ошибка может слишком дорого стоить
+              </div>
+              <p class="header-quote header-quote--langs"><span>“By the way”. — «Купи дорогу» </span> <br>buy/bai/ — «покупать».</p>
+              <div class="header-visual header-visual--coins"><img src="img/coins.png" alt="alt"></div>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="title-wrapper title-wrapper--index right">
+              <div class="header-right__title">оставить резюме</div>
+            </div>
+            <form class="header__price-form">
+              <label class="header__price-form-label custom-placeholder-label">
+                <input type="text" name="name" class="animated-hidden header-right-animated custom-placeholdered"><span class="custom-placeholder">Имя</span>
+              </label>
+              <label class="header__price-form-label custom-placeholder-label">
+                <input type="text" name="phone" class="animated-hidden header-right-animated custom-placeholdered"><span class="custom-placeholder">Телефон</span>
+              </label>
+              <label class="header__price-form-label custom-placeholder-label">
+                <input type="text" name="email" class="animated-hidden header-right-animated custom-placeholdered"><span class="custom-placeholder">Email</span>
+              </label>
+              <label class="file-masked animated-hidden header-right-animated"><span class="button button-bordered">Загрузить резюме на рассмотрение</span>
+                <input type="file" placeholder="Загрузить файл ТЗ на перевод, текст" class="button button-bordered header-form-download">
+              </label>
+              <label class="label-submit label-submit--transp button button-bordered button-empty header-form-submit animated-hidden header-right-animated">
+                <button type="submit" class="skew-inner">отправить резюме</button>
+              </label>
+            </form>
+            <p class="varranty">Мы гарантируем сохранность <br>Ваших персональных данных </p>
+            <div data-rellax-speed="4" class="rellax"><img src="img/dec-header-right.png" alt="alt" class="decor decor-header-right animated-hidden header-animated"></div>
+          </div>
+        </div>
+      </div>
+    </header><a href="" class="toggle-mnu"><span></span></a>
+    <div class="float-menu">
+      <div class="container">
+        <div class="float-menu__logo"><img src="img/logo-min.jpg" alt="alt"></div>
+        <ul class="header-menu">
+          <li><a href="#"><span class="skew-inner">О компании</span></a></li>
+          <li><a href="#"><span class="skew-inner">Услуги</span></a></li>
+          <li><a href="#"><span class="skew-inner">Вакансии</span></a></li>
+          <li><a href="#"><span class="skew-inner">Отзывы</span></a></li>
+          <li><a href="#"><span class="skew-inner">Для бизнеса</span></a></li>
+          <li><a href="#"><span class="skew-inner">Контакты</span></a></li>
+        </ul>
+        <div class="button-wrapper"><a href="#order-form" class="button header-order button-spreaded">
+            <div class="button-spreaded__left skew skew-fill"></div>
+            <div class="button-spreaded__right skew skew-fill"></div><span>заказать перевод</span></a></div>
+      </div>
+    </div>
+    <div class="container vac-about padded-left">
+      <p class="filin-paragraph">Бюро переводов <strong>«Филин»</strong> ВСЕГДА выполняет свои обязательства перед переводчиками.</p>
+      <p class="filin-paragraph"><strong>Порядочность</strong> и <strong>высокий профессионализм</strong> – основные принципы репутации нашей Компании.</p>
+      <p class="filin-paragraph">Преимущества работы с нами это cпециальный отдел по работе с переводчиками, автоматизированная система учета заказов.</p>
+      <p class="filin-paragraph">Если Вас заинтересовала какая-либо вакансия, отправляйте свое резюме, указав в теме</p>
+      <p class="filin-paragraph">письма должность, на наш электронный адрес: <a href="mailto:philin@gmail.com.">hr.philin@gmail.com.</a></p>
+    </div>
+    <section class="vac-attach">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2 class="marked">Присоединяйтесь к нашей команде <br>профессиональных переводчиков</h2>
+        </div>
+      </div>
+      <div class="container workers-person">
+        <div class="workers-person__item animated">
+          <div class="workers-person__avatar"><img src="img/vacs/01.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Алёна Мовчан</div>
+              <div class="workers-person__proff">Исполнительный директор</div>
+            </div>
+          </div>
+        </div>
+        <div class="workers-person__item animated">
+          <div class="workers-person__avatar"><img src="img/vacs/02.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Владимир Сухов</div>
+              <div class="workers-person__proff">Переводчик</div>
+            </div>
+          </div>
+        </div>
+        <div class="workers-person__item animated">
+          <div class="workers-person__avatar"><img src="img/vacs/03.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">марина Кимова</div>
+              <div class="workers-person__proff">Переводчик</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="state-vac">
+      <div class="container">
+        <h2 class="marked"> Штатные вакансии <br>В БЮРО ПЕРЕВОДОВ</h2>
+      </div>
+      <div class="container">
+        <div class="vac-subtitle marked"><span>Корректор со знанием </span><span>английского языка </span></div>
+      </div>
+      <div class="vacancy">
+        <div class="container container-rel"><img src="img/dec-state-vac-left.png" alt="alt" class="decor state-vac-left">
+          <div class="decor skew skew-fill state-rigt-md decor-slide-up-hiden hidden"></div>
+          <div class="decor skew skew-fill state-rigt-lg decor-slide-up-hiden hidden"></div>
+        </div>
+        <div class="vacancy-content">
+          <div class="container">
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Условия:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Пятидневная рабочая неделя</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">ЗП состоит из ставки + %</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Курсы английского языка</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Рабочий день с 9-00 до 18-00 или с 10-00 до 19-00</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Молодой, профессиональный, дружный и активный коллектив</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Комфортный офис в центре города (5 мин от м. Исторический Музей)</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Комфортные условия труда в современном бизнес центре (удобные рабочие места, чай, кофе, фрукты и т. д.)</div>
+                </li>
+              </ul>
+            </div>
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Обязанности:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Консультирование</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Прием и обработка заказов</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Общение с клиентами</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Оформление заказа и прием оплаты</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Распределение заказов среди переводчиков</div>
+                </li>
+              </ul>
+            </div>
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Требования:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Опыт работы с клиентами будет плюсом</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Ответственность, внимательность, позитивный настрой, многозадачность</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Общение с клиентами</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Знание русского и украинского языков на уровне эксперта, знание английского языка не ниже Intermediate</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container vacancy-toggle container-rel"><img src="img/dec-workers-title.png" alt="alt" class="decor state-vac-bottom"><a href="#resume-form" class="send-resume to-popup">Отправить резюме</a><a href="#" class="hidden-blocks__toggle">Подробнее</a></div>
+      </div>
+      <div class="container">
+        <div class="vac-subtitle marked"><span>Переводчик </span><span>английского языка</span></div>
+      </div>
+      <div class="vacancy">
+        <div class="container container-rel"><img src="img/dec-vacancy-big-left.png" alt="alt" class="decor vacancy-big-left decor-slide-up-hiden hidden"></div>
+        <div class="vacancy-content">
+          <div class="container container-rel"><img src="img/dec-vacancy-merged.png" alt="alt" class="decor decor-slide-up-hiden dec-vacancy-merged hidden">
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Условия:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Пятидневная рабочая неделя</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">ЗП состоит из ставки + %</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Курсы английского языка</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Рабочий день с 9-00 до 18-00 или с 10-00 до 19-00</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Молодой, профессиональный, дружный и активный коллектив</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Комфортный офис в центре города (5 мин от м. Исторический Музей)</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Комфортные условия труда в современном бизнес центре (удобные рабочие места, чай, кофе, фрукты и т. д.)</div>
+                </li>
+              </ul>
+            </div>
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Обязанности:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Консультирование</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Прием и обработка заказов</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Общение с клиентами</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Оформление заказа и прием оплаты</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Распределение заказов среди переводчиков</div>
+                </li>
+              </ul>
+            </div>
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Требования:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Опыт работы с клиентами будет плюсом</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Ответственность, внимательность, позитивный настрой, многозадачность</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Общение с клиентами</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Знание русского и украинского языков на уровне эксперта, знание английского языка не ниже Intermediate</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container vacancy-toggle container-rel"><a href="#resume-form" class="send-resume to-popup">Отправить резюме</a><a href="#" class="hidden-blocks__toggle">Подробнее</a></div>
+      </div>
+      <div class="container">
+        <div class="vac-subtitle marked"><span>Менеджер по </span><span>работе с клиентами</span></div>
+      </div>
+      <div class="vacancy">
+        <div class="container container-rel">
+          <div class="decor skew skew-fill vacancy-bottom-left-md decor-slide-up-hiden hidden"></div>
+          <div class="decor skew skew-fill vacancy-bottom-left-sm decor-slide-up-hiden hidden"></div><img src="img/dec-delivery-botom-bott-right.png" alt="alt" class="decor vacancy-bottom-right-lg decor-slide-up-hiden hidden">
+        </div>
+        <div class="vacancy-content">
+          <div class="container">
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Условия:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Пятидневная рабочая неделя</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">ЗП состоит из ставки + %</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Курсы английского языка</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Рабочий день с 9-00 до 18-00 или с 10-00 до 19-00</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Молодой, профессиональный, дружный и активный коллектив</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Комфортный офис в центре города (5 мин от м. Исторический Музей)</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Комфортные условия труда в современном бизнес центре (удобные рабочие места, чай, кофе, фрукты и т. д.)</div>
+                </li>
+              </ul>
+            </div>
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Обязанности:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Консультирование</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Прием и обработка заказов</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Общение с клиентами</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Оформление заказа и прием оплаты</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Распределение заказов среди переводчиков</div>
+                </li>
+              </ul>
+            </div>
+            <div class="vacancy-block">
+              <div class="vacancy-block__title">Требования:</div>
+              <ul class="marked-list">
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Опыт работы с клиентами будет плюсом</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Ответственность, внимательность, позитивный настрой, многозадачность</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Общение с клиентами</div>
+                </li>
+                <li>
+                  <div class="marked-mini skew skew-fill"></div>
+                  <div class="marked-list__text filin-paragraph">Знание русского и украинского языков на уровне эксперта, знание английского языка не ниже Intermediate</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container vacancy-toggle container-rel"><a href="#resume-form" class="send-resume to-popup">Отправить резюме</a><a href="#" class="hidden-blocks__toggle">Подробнее</a></div>
+      </div>
+    </section>
+    <section class="hot-vac">
+      <div class="container">
+        <div class="title-wrapper text-center">
+          <h2>Горящие вакансии удаленных переводчиков</h2>
+        </div>
+      </div>
+      <div class="hot-vac__item">
+        <div class="container container-rel">
+          <div class="decor skew skew-fill hot-vac-right-big"></div>
+          <div class="decor skew skew-fill hot-vac-right-md"></div>
+          <div class="hot-vac__title">
+            <div class="title-blue-mini marked">Переводчик немецкого/ французского/ <br>грузинского/ голландского языка Требования:</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="vacancy-block">
+            <div class="vacancy-block__title">Условия</div>
+            <ul class="marked-list">
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">наличие ПК и постоянного подключения к сети Интернет</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">высокий уровень внимательности, ответственности</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">знание украинского, русского и соответствующего иностранного языка на уровне эксперта</div>
+              </li>
+            </ul>
+          </div>
+          <div class="vacancy-block">
+            <div class="vacancy-block__title">Требования</div>
+            <ul class="marked-list">
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">своевременная заработная плата (выработка)</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">возможность работы в переводческих программах</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">работа в автоматизированной системе учета заказов</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="hot-vac__item">
+        <div class="container container-rel">
+          <div class="hot-vac__title">
+            <div class="title-blue-mini marked"> Переводчик английского/ немецкого<br>языка специализированных тематик </div>
+          </div>
+        </div>
+        <div class="container container-rel"><img src="img/dec-hot-vac-left.png" alt="alt" class="decor hot-vac-left">
+          <div class="vacancy-block">
+            <div class="vacancy-block__title">Условия:</div>
+            <ul class="marked-list">
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">наличие ПК и постоянного подключения к сети Интернет</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">высокий уровень внимательности, ответственности</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">знание украинского, русского и соответствующего иностранного языка на уровне эксперта</div>
+              </li>
+            </ul>
+          </div>
+          <div class="vacancy-block">
+            <div class="vacancy-block__title">Требования:</div>
+            <ul class="marked-list">
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">своевременная заработная плата (выработка)</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">возможность работы в переводческих программах</div>
+              </li>
+              <li>
+                <div class="marked-mini skew skew-fill"></div>
+                <div class="marked-list__text filin-paragraph">работа в автоматизированной системе учета заказов</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vac-reviewes">
+      <div class="container container-rel">
+        <div class="decor skew skew-fill vac-reviews-top"></div><img src="img/dec-booking-left.png" alt="alt" class="decor vac-reviews-top-left">
+        <h2 class="marked"> отзывы <br>НАШИх ПЕРЕВОДЧИКов</h2>
+      </div>
+      <div class="container vac-reviewes-item container-rel"><img src="img/dec-booking-orders-bottom.png" alt="alt" class="decor vac-reviews-top-right">
+        <div class="workers-person__item">
+          <div class="workers-person__avatar"><img src="img/worker-1.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Алёна Мовчан</div>
+              <div class="workers-person__proff">переводчик</div>
+            </div>
+          </div>
+        </div>
+        <div class="vac-reviewes-item__text">
+          <p class="vac-paragraph">Мне в работе переводчика нравится постоянное разнообразие, возможность постоянного совершенствования, свободный график и самостоятельная его регулировка. А еще очень нравится наличие, так сказать, рабочих привычек:) (переводчики меня поймут), не в каждой профессии они есть.</p>
+          <p class="vac-paragraph">В работе с Бюро переводов «Филин» очень нравится сотрудничество именно с корректором.</p>
+          <p class="vac-paragraph">На самом деле переводчику очень важно получить адекватный отзыв о своей работе и указание на его ошибки. Таким образом мы учимся и совершенствуемся. А также нравится отсутствие большой спешки, даже срочные заказы предполагают нормальные сроки выполнения, и менеджеры это понимают. Большое спасибо менеджерам и корректорам этого бюро переводов! Да, девушки менеджеры адекватно оценивают срочность и ее соответствие объему. Всегда приятные в общении как по телефону, так и по электронной почте, очень быстро реагируют на возникающие рабочие сложности.</p>
+          <p class="vac-paragraph">Хотелось бы пожелать Бюро переводов «Филин» развития, ведь если будет развиваться бюро, то и у переводчика будет постоянный поток заказов по хорошему тарифу. </p>
+        </div>
+      </div>
+      <div class="container vac-reviewes-item container-rel"><img src="img/dec-booking-orders-bottom-center.png" alt="alt" class="decor vac-reviewes-middle-left">
+        <div class="decor skew skew-fill vac-reviewes-middle-right"></div><img src="img/dec-technology-parts-left.png" alt="alt" class="decor vac-reviewes-middle-center">
+        <div class="workers-person__item">
+          <div class="workers-person__avatar"><img src="img/worker-2.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Владимир Сухов</div>
+              <div class="workers-person__proff">переводчик</div>
+            </div>
+          </div>
+        </div>
+        <div class="vac-reviewes-item__text">
+          <p class="vac-paragraph">Люблю свою работу удаленного переводчика, т.к. из нее я всегда могу подчеркнуть что-то новое для своих знаний, познакомиться и пообщаться с интересными людьми. Я работаю с несколькими компаниями, но предпочитаю работу именно с бюро переводов, а не самостоятельный фрилансинг, т.к. это экономит мне время, которое я могу потратить на самостоятельный поиск заказчика, а также гарантирует относительную безопасность получения оплаты.</p>
+          <p class="vac-paragraph">С бюро переводов «Филин» я сотрудничаю совсем не долго. Менеджеры работают всегда хорошо и оперативно. Хотела пожелать, чтобы у вас было еще больше клиентов, профессионального и карьерного роста каждому из сотрудников.</p>
+        </div>
+      </div>
+      <div class="container vac-reviewes-item container-rel">
+        <div class="decor skew skew-fill vac-reviewes-bottom-rigt-xs"></div>
+        <div class="decor skew skew-fill vac-reviewes-bottom-rigt-md"></div>
+        <div class="workers-person__item">
+          <div class="workers-person__avatar"><img src="img/worker-3.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Антон Кимов</div>
+              <div class="workers-person__proff">переводчик</div>
+            </div>
+          </div>
+        </div>
+        <div class="vac-reviewes-item__text">
+          <p class="vac-paragraph">Я работаю переводчиком с 2009 г, и сотрудничала с различными бюро переводов. В каждом из них работа была интересная и отличающаяся друг от друга.</p>
+          <p class="vac-paragraph">С бюро переводов "Филин" я сотрудничаю относительно недавно. Мне очень интересен сам процесс перевода, и оригиналы, предоставляемые заказчиками. Отношение менеджеров к переводчикам могу оценить на  «5+» (по 5-ти бальной шкале).</p>
+          <p class="vac-paragraph">С бюро переводов "Филин" я сотрудничаю относительно недавно. Мне очень интересен сам процесс перевода, и оригиналы, предоставляемые заказчиками. Отношение менеджеров к переводчикам могу оценить на  «5+» (по 5-ти бальной шкале).</p>
+          <p class="vac-paragraph">Менеджеры очень доброжелательны и отзывчивы, и никогда не ставят интересы самих переводчиков на последнее место, что является немаловажным в наше время.</p>
+        </div>
+      </div>
+      <div class="container vac-reviewes__more"><a href="#">Читать больше отзывов...</a></div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="subscribe-left">
+          <h2 class="marked"> подпишитесь на нас<br>в соцсетях</h2>
+          <div class="subscribe-socials"><a href="#" class="icon-facebook"></a><a href="#" class="icon-gplus"></a><a href="#" class="icon-vkontakte"></a><a href="#" class="icon-twitter"></a><a href="#" class="icon-instagram"></a></div>
+        </div>
+        <div class="subscribe-right skew skew-fill">
+          <h2 class="marked marked-inverse">подпишитесь <br>на наши обновления</h2>
+          <form class="subscribe-form">
+            <label class="custom-placeholder-label">
+              <input type="text" name="mail" class="skew-inner custom-placeholdered"><span class="custom-placeholder">Ваш Е-mail</span>
+            </label>
+            <button type="submit" class="button"><span class="skew-inner">подписаться
+                </span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer-left">
+          <div class="footer-green"></div>
+          <div data-rellax-speed="1" class="rellax">
+            <div class="decor footer-left__decor-top skew skew-fill"></div>
+          </div>
+          <div data-rellax-speed="-1" class="rellax">
+            <div class="decor footer-left__decor-top footer-left__decor-top--left skew skew-fill"></div>
+          </div>
+          <div data-rellax-speed="-2" class="rellax">
+            <div class="decor footer-left__decor-top footer-left__decor-top--bottom skew skew-fill"></div>
+          </div>
+          <div data-rellax-speed="2.5" class="rellax">
+            <div class="decor footer-left__decor-top footer-left__decor-top--bottom-right skew skew-fill"></div>
+          </div>
+          <div class="footer-top">
+            <div class="footer-socials"><a href="#" class="icon icon-twitter"></a><a href="#" class="icon icon-facebook-squared"></a></div>
+            <div class="footer-logo"><img src="img/logo-f.png" alt="alt">
+              <div class="footer-adress">Харьков, <br>переулок Театральный, <br>дом 4, офис 402</div>
+              <div class="footer-contacts"><a href="mailto:philin.com.ua@gmail.com " class="footer-maile">philin.com.ua@gmail.com </a><a href="tel:+38057802864">+38 057 780-28-64</a><a href="tel:+380505041275">+38 050 504-12-75</a><a href="tel:+380636205934">+38 063 620-59-34</a><a href="tel:+380636205934">+38 063 620-59-34</a><a href="tel:+380975041275">+38 097 504-12-75</a><a href="tel:+380687921070">+38 068 792-10-70</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-map"></div>
+      <div class="footer-right decor animated"></div>
+    </footer>
+    <div class="bottom">
+      <div class="container">
+        <div class="copyright"><a href="#">Правила конфиденциальности</a>
+          <div>© Филин. Бюро переводов 2017.</div>
+        </div>
+      </div>
+    </div>
+    <form id="order-form" class="order-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2 class="mini">ЗАКАЗАТЬ РАСЧЕТ</h2>
+      </div>
+      <label class="custom-placeholder-label"><span>Имя</span>
+        <input type="text" name="name" class="custom-placeholdered"><span class="custom-placeholder">Введите ваше имя</span>
+      </label>
+      <label class="custom-placeholder-label"><span>E-mail</span>
+        <input type="text" name="mail" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш e-mail</span>
+      </label>
+      <label class="custom-placeholder-label"><span>Номер телефона</span>
+        <input type="text" name="phone" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш номер телефона</span>
+      </label>
+      <label><span>Комментарий</span>
+        <textarea name="comment" cols="30" rows="10" placeholder="Введите ваш комментарий, например язык перевода"></textarea>
+      </label>
+      <div class="order-form__bottom">
+        <div class="order-form__files">
+          <div class="icon-check-form"></div>
+          <spam class="order-form__filename">Text12.dock</spam>
+          <spam class="order-form__filename">Text15.dock</spam>
+        </div>
+        <div class="order-form__buttons">
+          <label class="file-masked"><span class="button button-bordered">добавить файл</span>
+            <input type="file" placeholder="Загрузить файл ТЗ на перевод, текст" class="button button-bordered header-form-download">
+          </label>
+          <label class="button button-bordered header-form-submit">
+            <button type="submit" class="skew-inner">получить експрес-расчёт</button>
+          </label>
+        </div>
+      </div>
+    </form>
+    <form id="translators-form" class="translators-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2>вход</h2>
+      </div>
+      <label class="custom-placeholder-label">
+        <input type="text" name="mail" class="custom-placeholdered"><span class="custom-placeholder">E-mail</span>
+      </label>
+      <label class="custom-placeholder-label">
+        <input type="text" name="phone" class="custom-placeholdered"><span class="custom-placeholder">Пароль</span>
+      </label>
+      <div class="translators-form__registration-block"><a href="#">Востановить пароль</a><a href="#" class="translators-form__registration">Регестрация</a></div>
+      <div class="translators-form__bottom"><a href="#" class="button button-wht"><span>войти</span></a></div>
+    </form>
+    <form id="resume-form" class="resume-form order-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2 class="mini">Отправка резюме</h2>
+      </div>
+      <div class="container-wide resume-form__wrap">
+        <div class="form-div">
+          <label class="custom-placeholder-label"><span>Имя</span>
+            <input type="text" name="name" class="custom-placeholdered"><span class="custom-placeholder">Введите ваше имя</span>
+          </label>
+          <label class="custom-placeholder-label"><span>E-mail</span>
+            <input type="text" name="mail" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш e-mail</span>
+          </label>
+          <label class="custom-placeholder-label"><span>Номер телефона</span>
+            <input type="text" name="phone" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш номер телефона</span>
+          </label>
+        </div>
+        <div class="form-div form-div--files">
+          <div class="file-display">
+            <div class="file-item">
+              <div class="file-item__icon"></div>
+              <div class="file-item__dots"></div>
+              <div class="file-item__name">Резюме.doc</div>
+              <div class="file-item__del-icon"></div>
+            </div>
+          </div>
+          <div class="form-button">			
+            <label class="file-masked"><span class="button button-wht button-blue-brd"><span>добавить файл</span></span>
+              <input type="file" placeholder="Загрузить файл ТЗ на перевод, текст" class="button button-bordered header-form-download">
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="order-form__buttons">
+        <label class="button button-bordered header-form-submit">
+          <button type="submit" class="skew-inner">Отправить</button>
+        </label>
+      </div>
+    </form>
+    
+    <div id="popup-regard" class="popup-regard container-wide mfp-hide white-popup-block">
+      <div class="popup-regard__left"><img src="img/popup-regard-img.jpg" alt="alt" class="resp-img"></div>
+      <div class="popup-regard__right">
+        <div class="popup-regard__person">
+          <div class="workers-person__avatar"><img src="img/worker-2.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Владимир Сухов</div>
+              <div class="workers-person__proff">Управляющий персоналом</div>
+            </div>
+          </div>
+          <p>Если переводчик не знает свой уровень качества перевода - мы не будем с таким сотрудничать.</p>
+        </div>
+      </div>
+    </div>
+    <div id="popup-thanks" class="popup-thanks order-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2 class="mini">Спасибо :)</h2>
+      </div>
+      <div class="files-download-form__manual">Мы свяжемся с вами в ближайшее время. За статусом вашего заказа можно следить в личном кабинете.</div>
+      <div class="form-button"><a href="#" class="button button-bordered button-blue-empty"><span>Перейти в личный кабинет</span></a></div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_NAmCu9dm16a9i0oeX0T6rBQFgObeiZA&amp;callback=initMap" async defer></script>
+  </body>
+</html>

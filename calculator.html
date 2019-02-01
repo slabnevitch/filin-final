@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Калькулятор</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- Здесь пишем код-->
+    <header class="header section">
+      <div class="header-bg header-bg-clear header-bg-clear--reviews header-animated animated"></div>
+      <div data-rellax-speed="-2" class="rellax"><img src="img/dec-header-bg-wht.png" alt="alt" class="header-bg__wht header-animated animated-hidden"></div>
+      <div class="header-top">
+        <div class="container">
+          <div class="header-logo header-animated animated-hidden"><img src="img/logo-h.png" alt="alt"></div>
+          <div class="header-contacts">
+            <div class="header-contacts__top">
+              <div class="header-search icon-search"></div>
+              <div class="header-divider header-divider--white skew skew-fill header-animated animated-hidden"></div><a href="#translators-form" class="button button-violet translators-form-trigger"><span>переводчикам</span></a><a href="mailto:philin.com.ua@gmail.com" class="header-email">philin.com.ua@gmail.com</a>
+              <div class="header-divider skew skew-fill header-animated animated-hidden"></div><a href="tel:0577802864" class="header-tel"><span class="skew-inner">057 780-28-64</span></a>
+              <div class="header-divider skew skew-fill header-animated animated-hidden"></div><a href="tel:0505041275" class="header-tel"><span class="skew-inner">050 504-12-75</span></a>
+              <div class="header-divider skew skew-fill header-animated animated-hidden"></div><a href="tel:0505041275" class="header-tel"><span class="skew-inner">050 504-12-75</span></a><a href="#" class="icon icon-whats"></a><a href="#" class="icon-telegram"></a>
+              <div class="localization">
+                <div class="localization-list">
+                  <div class="localization-list__selected">
+                    <div class="icon-flag-ru"></div>
+                  </div>
+                  <ul class="localization-list__dropdown">
+                    <li class="skew skew-fill"><a href="#" class="skew-inner">
+                        <div class="icon-flag-ru"></div></a></li>
+                    <li class="skew skew-fill"><a href="#" class="skew-inner">
+                        <div class="icon-flag-ru"></div></a></li>
+                    <li class="skew skew-fill"><a href="#" class="skew-inner">
+                        <div class="icon-flag-ru"></div></a></li>
+                  </ul>
+                </div>
+                <div class="localization__tri"></div>
+              </div>
+            </div>
+            <div class="header-contacts__bottom">
+              <ul class="header-menu">
+                <li><a href="#"><span class="skew-inner">О компании</span></a></li>
+                <li><a href="#"><span class="skew-inner">Услуги</span></a></li>
+                <li><a href="#"><span class="skew-inner">Вакансии</span></a></li>
+                <li><a href="#"><span class="skew-inner">Отзывы</span></a></li>
+                <li><a href="#"><span class="skew-inner">Для бизнеса</span></a></li>
+                <li><a href="#"><span class="skew-inner">Контакты</span></a></li>
+              </ul>
+              <div class="button-wrapper"><a href="#order-form" class="button header-order button-spreaded">
+                  <div class="button-spreaded__left skew skew-fill"></div>
+                  <div class="button-spreaded__right skew skew-fill"></div><span>заказать перевод</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-left">
+            <div class="header-left__inner">
+              <h1 class="upper grad marked marked-inverse title-business title-margined">Калькулятор</h1>
+              <div class="headet-left__subtitle headet-left__subtitle--business marked marked-inverse fz35">Мы осуществляем только правильные переводы
+              </div>
+              <p class="header-quote header-quote--business"><span>“Phone seller”. — </span> <br>«Позвони продавцу»</p>
+              <div class="header-visual header-visual--phone header-visual--business"><img src="img/contacts/phone.png" alt="alt"></div>
+            </div>
+          </div>
+          <div class="header-right">
+            <form class="header__price-form header__price-form--reviews">
+              <label class="header__price-form-label custom-placeholder-label">
+                <input type="text" name="name" class="animated-hidden header-right-animated custom-placeholdered"><span class="custom-placeholder">Имя</span>
+              </label>
+              <label class="header__price-form-label custom-placeholder-label">
+                <input type="text" name="phone" class="animated-hidden header-right-animated custom-placeholdered"><span class="custom-placeholder">Телефон</span>
+              </label>
+              <label class="header__price-form-label custom-placeholder-label">
+                <input type="text" name="email" class="animated-hidden header-right-animated custom-placeholdered"><span class="custom-placeholder">Email</span>
+              </label>
+              <label class="header__price-form-label label-textarea"><span class="custom-placeholder">Комментарий</span>
+                <textarea name="review-message" placeholder="Поделитесь что Вы переводили и как Вам понравился наш сервис."></textarea>
+              </label>
+              <div class="rating">
+                <div class="rating-star rating-star-lg rating-star-lg--active"></div>
+                <div class="rating-star rating-star-lg rating-star-lg--active"></div>
+                <div class="rating-star rating-star-lg rating-star-lg--active"></div>
+                <div class="rating-star rating-star-lg rating-star-lg--empty"></div>
+                <div class="rating-star rating-star-lg rating-star-lg--empty"></div>
+              </div>
+              <label class="label-submit label-reviews label-submit--transp button button-bordered button-empty header-form-submit animated-hidden header-right-animated">
+                <button type="submit" class="skew-inner">отправить отзыв</button>
+              </label>
+            </form>
+            <div data-rellax-speed="4" class="rellax"><img src="img/dec-header-right.png" alt="alt" class="decor decor-header-right animated-hidden header-animated"></div>
+          </div>
+        </div>
+      </div>
+    </header><a href="" class="toggle-mnu"><span></span></a>
+    <div class="float-menu">
+      <div class="container">
+        <div class="float-menu__logo"><img src="img/logo-min.jpg" alt="alt"></div>
+        <ul class="header-menu">
+          <li><a href="#"><span class="skew-inner">О компании</span></a></li>
+          <li><a href="#"><span class="skew-inner">Услуги</span></a></li>
+          <li><a href="#"><span class="skew-inner">Вакансии</span></a></li>
+          <li><a href="#"><span class="skew-inner">Отзывы</span></a></li>
+          <li><a href="#"><span class="skew-inner">Для бизнеса</span></a></li>
+          <li><a href="#"><span class="skew-inner">Контакты</span></a></li>
+        </ul>
+        <div class="button-wrapper"><a href="#order-form" class="button header-order button-spreaded">
+            <div class="button-spreaded__left skew skew-fill"></div>
+            <div class="button-spreaded__right skew skew-fill"></div><span>заказать перевод</span></a></div>
+      </div>
+    </div>
+    <section class="calculator">
+      <div class="container calculator-top container-rel"><img src="img/dec-delivery-botom-bott-right.png" alt="alt" class="decor calculator-right"><img src="img/dec-honor-content-left-top.png" alt="alt" class="decor calculator-left">
+        <div class="calculator-top__displ active button button-bordered"><span>1 Шаг</span></div>
+        <div class="calculator-top__displ button button-bordered"><span>2 Шаг</span></div>
+        <div class="calculator-top__displ button button-bordered"><span>3 Шаг</span></div>
+      </div>
+      <div class="calculator-screen calculator-screen--1">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="marked">Загрузка файлов <br>и подсчёт символов/слов</h2>
+          </div>
+        </div>
+        <div class="calculator-screen__content container">
+          <div class="file-display padded-left">
+            <div class="file-item">
+              <div class="file-item__icon file-item__icon--sm"></div>
+              <div class="file-item__name">Text12.doc</div>
+              <div class="file-item__dots"></div>
+              <div class="file-item__del-icon"></div>
+            </div>
+            <div class="file-item">
+              <div class="file-item__icon file-item__icon--sm"></div>
+              <div class="file-item__name">Validation_text15.doc</div>
+              <div class="file-item__dots"></div>
+              <div class="file-item__del-icon"></div>
+            </div>
+            <div class="file-item">
+              <div class="file-item__icon file-item__icon--sm"></div>
+              <div class="file-item__name">Text15.jpeg</div>
+              <div class="file-item__dots"></div>
+              <div class="file-item__del-icon"></div>
+            </div>
+            <div class="file-item">
+              <div class="file-item__icon file-item__icon--sm"></div>
+              <div class="file-item__name">Text_for_translation.doc</div>
+              <div class="file-item__dots"></div>
+              <div class="file-item__del-icon"></div>
+            </div>
+            <div class="files-download-form__manual">Вы можете добавить текстовые файлы или картинки таких форматов: doc, txt, rtf, jpeg, png.</div>
+          </div>
+          <form action="#" class="padded-left calculator__download-form">
+            <div class="form-button">		
+              <label class="file-masked"><span class="button button-wht button-blue-brd"><span>добавить файл</span></span>
+                <input type="file" placeholder="Загрузить файл ТЗ на перевод, текст" class="button button-bordered header-form-download">
+              </label>
+              <div class="calculator__count-inps">
+                <label class="custom-placeholder-label">
+                  <input type="text" class="custom-placeholdered"><span class="custom-placeholder">Количество страниц</span>
+                </label>
+                <label class="custom-placeholder-label">
+                  <input type="text" class="custom-placeholdered"><span class="custom-placeholder">Количество слов</span>
+                </label>
+                <label class="custom-placeholder-label">
+                  <input type="text" class="custom-placeholdered"><span class="custom-placeholder">Количество символов</span>
+                </label>
+              </div>
+            </div>
+            <textarea name="" placeholder="Или введите текст"></textarea>
+          </form>
+        </div>
+        <div class="calculator-screen__bottom container padded-left">
+          <div class="label-submit label-reviews label-submit--transp button button-bordered button-empty header-form-submit calculator-prev"><span>назад</span></div>
+          <div class="label-submit label-reviews label-submit--transp button button-bordered button-empty header-form-submit calculator-next"><span>Далее</span></div>
+        </div>
+      </div>
+      <div class="calculator-screen calculator-screen--2 hidden">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="marked">Выбор языковой пары<br>и уровня качества перевода</h2>
+          </div>
+        </div>
+        <div class="calculator-screen__content container">
+          <form action="#" class="calculator__select-form">
+            <div class="container-wide">
+              <div class="pare-select padded-left">
+                <div class="pare-select__list"><span>Язык оригинала</span>
+                  <select name="" class="payment-form__valute">
+                    <option value="">Английский</option>
+                    <option value="">Украинский</option>
+                    <option value="">Русский</option>
+                    <option value="">Испанский</option>
+                  </select>
+                </div>
+              </div>
+              <div class="pare-select padded-left">
+                <div class="pare-select__list"><span>Язык перевода</span>
+                  <select name="" class="payment-form__valute">
+                    <option value="">Английский</option>
+                    <option value="">Украинский</option>
+                    <option value="">Русский
+                      <option value="">Испанский</option>
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="container-wide">
+              <div class="pare-select padded-left">
+                <label class="custom-check">
+                  <input type="radio" name="pare-select-radio"><span class="radio-false"></span><span class="custom-check__text">VIP</span><span title="70 грн за страницу перевод носителем языка + корректор + редактор верстальщик высочайший уровень перевода" class="pare-select__ques">?</span>
+                </label>
+              </div>
+              <div class="pare-select padded-left">
+                <label class="custom-check">
+                  <input type="radio" name="pare-select-radio"><span class="radio-false"></span><span class="custom-check__text">БАЗОВЫЙ</span><span title="От 40 грн за страницу переводчик + корректор стандартные документы, либо тексты любой сложности" class="pare-select__ques">?</span>
+                </label>
+              </div>
+              <div class="pare-select padded-left">
+                <label class="custom-check">
+                  <input type="radio" name="pare-select-radio"><span class="radio-false"></span><span class="custom-check__text">СТАНДАРТ</span><span title="От 30 грн за страницу текст общей тематики" class="pare-select__ques">?</span>
+                </label>
+              </div>
+            </div>
+          </form>
+          <div class="calculator-row padded-left">
+            <div class="calculator-row__name">Итоговая цена: </div>
+            <div class="calculator-row__val">435 грн</div>
+          </div>
+        </div>
+        <div class="calculator-screen__bottom container padded-left">
+          <div class="label-submit label-reviews label-submit--transp button button-bordered button-empty header-form-submit calculator-prev"><span>назад</span></div>
+          <div class="label-submit label-reviews label-submit--transp button button-bordered button-empty header-form-submit calculator-next"><span>Далее</span></div>
+        </div>
+      </div>
+      <div class="calculator-screen calculator-screen--3 hidden">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="marked">  Проверка данных<br>и преход к оплате</h2>
+          </div>
+        </div>
+        <div class="calculator-screen__content container">
+          <div class="calculator-row padded-left">
+            <div class="calculator-row__name">Номер заказа:</div>
+            <div class="calculator-row__val">5647</div>
+          </div>
+          <div class="calculator-row padded-left">
+            <div class="calculator-row__name">Пакет:</div>
+            <div class="calculator-row__val">БАЗОВЫЙ</div>
+          </div>
+          <div class="calculator-row padded-left">
+            <div class="calculator-row__name">Перевод:</div>
+            <div class="calculator-row__val">с английского на русский</div>
+          </div>
+          <div class="calculator-row padded-left">
+            <div class="calculator-row__name">Сумма:</div>
+            <div class="calculator-row__val">435грн</div>
+          </div>
+        </div>
+        <div class="calculator-screen__bottom container padded-left">
+          <div class="label-submit label-reviews label-submit--transp button button-bordered button-empty header-form-submit calculator-prev"><span>назад</span></div>
+          <div class="final-count button"><a href="#" class="skew-inner">переход к оплате</a><span class="final-count__val button"><span>435 <span class="small">грн.</span></span></span></div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="subscribe-left">
+          <h2 class="marked"> подпишитесь на нас<br>в соцсетях</h2>
+          <div class="subscribe-socials"><a href="#" class="icon-facebook"></a><a href="#" class="icon-gplus"></a><a href="#" class="icon-vkontakte"></a><a href="#" class="icon-twitter"></a><a href="#" class="icon-instagram"></a></div>
+        </div>
+        <div class="subscribe-right skew skew-fill">
+          <h2 class="marked marked-inverse">подпишитесь <br>на наши обновления</h2>
+          <form class="subscribe-form">
+            <label class="custom-placeholder-label">
+              <input type="text" name="mail" class="skew-inner custom-placeholdered"><span class="custom-placeholder">Ваш Е-mail</span>
+            </label>
+            <button type="submit" class="button"><span class="skew-inner">подписаться</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer-left">
+          <div class="footer-green"></div>
+          <div data-rellax-speed="1" class="rellax">
+            <div class="decor footer-left__decor-top skew skew-fill"></div>
+          </div>
+          <div data-rellax-speed="-1" class="rellax">
+            <div class="decor footer-left__decor-top footer-left__decor-top--left skew skew-fill"></div>
+          </div>
+          <div data-rellax-speed="-2" class="rellax">
+            <div class="decor footer-left__decor-top footer-left__decor-top--bottom skew skew-fill"></div>
+          </div>
+          <div data-rellax-speed="2.5" class="rellax">
+            <div class="decor footer-left__decor-top footer-left__decor-top--bottom-right skew skew-fill"></div>
+          </div>
+          <div class="footer-top">
+            <div class="footer-socials"><a href="#" class="icon icon-twitter"></a><a href="#" class="icon icon-facebook-squared"></a></div>
+            <div class="footer-logo"><img src="img/logo-f.png" alt="alt">
+              <div class="footer-adress">Харьков, <br>переулок Театральный, <br>дом 4, офис 402</div>
+              <div class="footer-contacts"><a href="mailto:philin.com.ua@gmail.com " class="footer-maile">philin.com.ua@gmail.com </a><a href="tel:+38057802864">+38 057 780-28-64</a><a href="tel:+380505041275">+38 050 504-12-75</a><a href="tel:+380636205934">+38 063 620-59-34</a><a href="tel:+380636205934">+38 063 620-59-34</a><a href="tel:+380975041275">+38 097 504-12-75</a><a href="tel:+380687921070">+38 068 792-10-70</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-map"></div>
+      <div class="footer-right decor animated"></div>
+    </footer>
+    <div class="bottom">
+      <div class="container">
+        <div class="copyright"><a href="#">Правила конфиденциальности</a>
+          <div>© Филин. Бюро переводов 2017.</div>
+        </div>
+      </div>
+    </div>
+    <form id="order-form" class="order-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2 class="mini">ЗАКАЗАТЬ РАСЧЕТ</h2>
+      </div>
+      <label class="custom-placeholder-label"><span>Имя</span>
+        <input type="text" name="name" class="custom-placeholdered"><span class="custom-placeholder">Введите ваше имя</span>
+      </label>
+      <label class="custom-placeholder-label"><span>E-mail</span>
+        <input type="text" name="mail" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш e-mail</span>
+      </label>
+      <label class="custom-placeholder-label"><span>Номер телефона</span>
+        <input type="text" name="phone" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш номер телефона</span>
+      </label>
+      <label><span>Комментарий</span>
+        <textarea name="comment" cols="30" rows="10" placeholder="Введите ваш комментарий, например язык перевода"></textarea>
+      </label>
+      <div class="order-form__bottom">
+        <div class="order-form__files">
+          <div class="icon-check-form"></div>
+          <spam class="order-form__filename">Text12.dock</spam>
+          <spam class="order-form__filename">Text15.dock</spam>
+        </div>
+        <div class="order-form__buttons">
+          <label class="file-masked"><span class="button button-bordered">добавить файл</span>
+            <input type="file" placeholder="Загрузить файл ТЗ на перевод, текст" class="button button-bordered header-form-download">
+          </label>
+          <label class="button button-bordered header-form-submit">
+            <button type="submit" class="skew-inner">получить експрес-расчёт</button>
+          </label>
+        </div>
+      </div>
+    </form>
+    <form id="translators-form" class="translators-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2>вход</h2>
+      </div>
+      <label class="custom-placeholder-label">
+        <input type="text" name="mail" class="custom-placeholdered"><span class="custom-placeholder">E-mail</span>
+      </label>
+      <label class="custom-placeholder-label">
+        <input type="text" name="phone" class="custom-placeholdered"><span class="custom-placeholder">Пароль</span>
+      </label>
+      <div class="translators-form__registration-block"><a href="#">Востановить пароль</a><a href="#" class="translators-form__registration">Регестрация</a></div>
+      <div class="translators-form__bottom"><a href="#" class="button button-wht"><span>войти</span></a></div>
+    </form>
+    <form id="resume-form" class="resume-form order-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2 class="mini">Отправка резюме</h2>
+      </div>
+      <div class="container-wide resume-form__wrap">
+        <div class="form-div">
+          <label class="custom-placeholder-label"><span>Имя</span>
+            <input type="text" name="name" class="custom-placeholdered"><span class="custom-placeholder">Введите ваше имя</span>
+          </label>
+          <label class="custom-placeholder-label"><span>E-mail</span>
+            <input type="text" name="mail" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш e-mail</span>
+          </label>
+          <label class="custom-placeholder-label"><span>Номер телефона</span>
+            <input type="text" name="phone" class="custom-placeholdered"><span class="custom-placeholder">Введите ваш номер телефона</span>
+          </label>
+        </div>
+        <div class="form-div form-div--files">
+          <div class="file-display">
+            <div class="file-item">
+              <div class="file-item__icon"></div>
+              <div class="file-item__dots"></div>
+              <div class="file-item__name">Резюме.doc</div>
+              <div class="file-item__del-icon"></div>
+            </div>
+          </div>
+          <div class="form-button">			
+            <label class="file-masked"><span class="button button-wht button-blue-brd"><span>добавить файл</span></span>
+              <input type="file" placeholder="Загрузить файл ТЗ на перевод, текст" class="button button-bordered header-form-download">
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="order-form__buttons">
+        <label class="button button-bordered header-form-submit">
+          <button type="submit" class="skew-inner">Отправить</button>
+        </label>
+      </div>
+    </form>
+    
+    <div id="popup-regard" class="popup-regard container-wide mfp-hide white-popup-block">
+      <div class="popup-regard__left"><img src="img/popup-regard-img.jpg" alt="alt" class="resp-img"></div>
+      <div class="popup-regard__right">
+        <div class="popup-regard__person">
+          <div class="workers-person__avatar"><img src="img/worker-2.jpg" alt="alt"></div>
+          <div class="workers-person__bottom">
+            <div class="workers-person__personal marked">
+              <div class="workers-person__name">Владимир Сухов</div>
+              <div class="workers-person__proff">Управляющий персоналом</div>
+            </div>
+          </div>
+          <p>Если переводчик не знает свой уровень качества перевода - мы не будем с таким сотрудничать.</p>
+        </div>
+      </div>
+    </div>
+    <div id="popup-thanks" class="popup-thanks order-form mfp-hide white-popup-block">
+      <div class="title-wrapper center">
+        <h2 class="mini">Спасибо :)</h2>
+      </div>
+      <div class="files-download-form__manual">Мы свяжемся с вами в ближайшее время. За статусом вашего заказа можно следить в личном кабинете.</div>
+      <div class="form-button"><a href="#" class="button button-bordered button-blue-empty"><span>Перейти в личный кабинет</span></a></div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_NAmCu9dm16a9i0oeX0T6rBQFgObeiZA&amp;callback=initMap" async defer></script>
+  </body>
+</html>
